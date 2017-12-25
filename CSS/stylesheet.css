@@ -1,0 +1,63 @@
+html{
+  text-align: center;
+  background: linear-gradient(to right,#3281ff,lightblue,#3281ff);
+
+}
+
+h3{
+font-family: 'Bungee', cursive;
+font-size:4vh;
+color: white;
+text-shadow:
+    3px 3px 0 #000,
+  -1px -1px 0 #000,
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+
+h1{
+font-family: 'Knewave', cursive;
+font-size:7vh;
+color:#2075fc;
+text-shadow:
+    3px 3px 0 #000,
+  -1px -1px 0 #000,
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+
+h2{
+font-family: 'Lobster', cursive;
+font-size:5vh;
+color: white;
+text-shadow:
+    3px 3px 0 #000,
+  -1px -1px 0 #000,
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+
+a{
+  text-decoration: none;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color:white;
+  text-shadow:
+      3px 3px 0 #000,
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+
+
+}
+
+.cen{
+  height:100%;
+  width:290px;
+}

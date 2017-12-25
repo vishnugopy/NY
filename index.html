@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Wishes From Your Friend</title>
+    <link rel="stylesheet" href="CSS\stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Knewave" rel="stylesheet">
+    <link rel="shortcut icon" href="PHOTO\2018.png" />
+  </head>
+  <body>
+      <h3>Hi! I Wish you </h3>
+      <h2>Happy New year 2018</h2>
+      <h1 id="demo"></h1>
+      <img class="cen" src="PHOTO\001.gif" alt="01">
+
+
+
+<footer>
+  <a href="https://www.instagram.com/__vishnu__10/">&copy;Vishnugopy</a>
+
+</footer>
+      <script>
+          var txt;
+          var person = prompt("Please Enter Your Name :");
+          if (person == null || person == "") {
+              txt = "My Lovely Friend";
+          } else {
+              txt = person;
+          }
+          document.getElementById("demo").innerHTML = txt;
+      </script>
+  </body>
+</html>
